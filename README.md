@@ -1,3 +1,5 @@
+# Repository for the mini application which is using AWS for sensory purpose, for the frontend side React is used. Amplify is used for backend / frontend
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
