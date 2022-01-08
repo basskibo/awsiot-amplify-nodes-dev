@@ -1,4 +1,8 @@
-# Repository for the mini application which is using AWS for sensory purpose, for the frontend side React is used. Amplify is used for backend / frontend
+#Project summary
+
+Repository for the mini application which is using AWS for sensory purpose, for the frontend side React is used. Amplify is used for backend / frontend
+
+**NOTE** This was made for testing purposes so it is using _MIT LICENCE_ .
 
 # Getting Started with Create React App
 
