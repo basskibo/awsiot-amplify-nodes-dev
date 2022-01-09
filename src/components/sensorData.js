@@ -23,27 +23,27 @@ Amplify.addPluggable(new AWSIoTProvider({
 Auth.currentCredentials().then(creds => console.log(creds));
 
 class Sensors extends React.Component{
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
-            sensorMsg : '{"null": 0}'
+          sensorMsg: '{"null": 0}'
         };
     }
 
     componentDidMount(){
         PubSub.subscribe('myTopic').subscribe({
-            next: data => {
-                console.log("Data received : " , data)
-                try{
-                    this.setState({sendMsg : data.value})
-                }catch(exc){
-                    console.log("Error, are you sending the correct data?");
-                }
-            },
-            error: exc => console.error(exc),
-            close: () => console.log('Done, closing ....'),
-        })
-    }
+          next: data => {
+            try{
+              this.setState({ sensorMsg: data.value });
+            }
+            catch (error){
+              console.log("Error, are you sending the correct data?");
+            }
+          },
+          error: error => console.error(error),
+          close: () => console.log('Done'),
+        });
+      }
 
     render(){
         const { sensorMsg } = this.state;
@@ -75,7 +75,8 @@ class Sensors extends React.Component{
             </div>
         )
     }
-
 }
+
+
 
 export default Sensors;
