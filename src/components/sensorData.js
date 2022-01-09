@@ -77,6 +77,4 @@ class Sensors extends React.Component{
     }
 }
 
-
-
 export default Sensors;

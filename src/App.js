@@ -31,6 +31,10 @@ function App() {
           <Col md="auto"> <Sensors name="Air Temp" unit="°F"/> </Col>
           <Col md="auto"> <Sensors name="Humidity" unit="%"/> </Col>
         </Row>
+        <Row className="p-3 justify-content-md-center">
+        <Col md="auto"> <Sensors name="Battery" unit="%"/> </Col>
+          <Col md="auto"> <Sensors name="Kelvins" unit="K"/> </Col>
+        </Row>
       </Container>
     </div>
   );

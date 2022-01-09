@@ -4,6 +4,12 @@ Repository for the mini application which is using AWS for sensory purpose, for 
 
 **NOTE** This was made for testing purposes so it is using _MIT LICENCE_ .
 
+# MQTT Message example
+
+Easiest way is to use AWS IoT Core (https://eu-central-1.console.aws.amazon.com/iot/home) in order to publish messages, you can ublish message to topic "myTopic" with following payload
+
+    { "Air Temp": 53, "Humidity" : 73, "Battery" : 1, "Kelvins" : 5269}
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,7 +78,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
-
-# This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# awsiot-amplify-nodes-dev
