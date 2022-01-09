@@ -10,6 +10,11 @@
       "StackName": "amplify-awsiotamplifynodes-dev-220728",
       "StackId": "arn:aws:cloudformation:eu-central-1:879609065339:stack/amplify-awsiotamplifynodes-dev-220728/fdcf9cc0-70c6-11ec-a544-0244e326f03a",
       "AmplifyAppId": "dc8imdxmgi0i"
+    },
+    "categories": {
+      "auth": {
+        "awsiotamplifynodesaa8c4ea2": {}
+      }
     }
   }
 }
